@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.waves{
+    background: #F7E93F !important;
+    background: linear-gradient(to right, #F7E93F 0%, #FB09B4 50%, #9100F8 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+
