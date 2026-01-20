@@ -13,4 +13,34 @@
     -webkit-text-fill-color: transparent !important;
 }
 
+/* Responsive */
+
+@media screen and (max-width: 576px){
+    .menu-nav,
+    .btn-nav {
+    display: none;
+  }
+  .navbar{
+    width: 100%;
+  }
+    .hm-nav {
+        display: block;
+    }
+
+  .divider {
+    height: 1px;
+    width: 90%;
+  }
+  .about-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    
+    
+  }
+  
+}
+
 
